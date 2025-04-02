@@ -1,0 +1,10 @@
+pandas
+pubchempy
+requests
+beautifulsoup4
+sqlite3
+json
+time
+re
+threading
+concurrent.futures
