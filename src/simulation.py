@@ -61,7 +61,7 @@ class BatterySimulation:
         # Bestimme die Anzahl der Elektronen für die ausgeglichene Reaktion (kleinstes gemeinsames Vielfaches)
         try:
             self.n_overall = math.lcm(self.cathode.electrons, self.anode.electrons)
-        except TypeError: # Fallback für ältere Python-Versionen ohne math.lcm
+        except TypeError: 
              # Einfache Implementierung von kgV
              def gcd(a, b):
                  while b:
